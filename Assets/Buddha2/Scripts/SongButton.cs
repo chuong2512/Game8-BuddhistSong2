@@ -41,10 +41,12 @@ public class SongButton : MonoBehaviour
     {
         if (_isUnlock)
         {
-            UIManager.Instance.OpenScreen<SongModel>(ScreenType.SongScreen, new SongModel()
+            /*UIManager.Instance.OpenScreen<SongModel>(ScreenType.SongScreen, new SongModel()
             {
                 songID = _songID
-            });
+            });*/
+            
+            AudioManager.Instance.PlaySong(_songID);
         }
         else
         {
@@ -70,6 +72,6 @@ public class SongButton : MonoBehaviour
 
     public void Choose(bool b)
     {
-        _chooseObj.SetActive(false);
+        _chooseObj.SetActive(b);
     }
 }

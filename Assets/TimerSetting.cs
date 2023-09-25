@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class TimerSetting : MonoBehaviour
 {
-    [SerializeField] private RectTransform _rectTransform;
+    [SerializeField] private GameObject _gameObject;
     [SerializeField] private float _startPos, _endPos;
     [SerializeField] private TextMeshProUGUI _timeTMP;
 
@@ -32,14 +32,13 @@ public class TimerSetting : MonoBehaviour
     private void Show()
     {
         _isOn = true;
-        _rectTransform.anchoredPosition = new Vector2(0, _startPos);
-        _rectTransform.DOAnchorPosY(_endPos, 0.5f);
+        _gameObject.SetActive(true);
     }
 
     private void Hide()
     {
-        _rectTransform.anchoredPosition = new Vector2(0, _endPos);
-        _rectTransform.DOAnchorPosY(_startPos, 0.5f);
+        _isOn = false;
+        _gameObject.SetActive(false);
     }
 
     private void FixedUpdate()
