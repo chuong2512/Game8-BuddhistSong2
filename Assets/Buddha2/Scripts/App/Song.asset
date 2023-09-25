@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341f70c621778da438579b141471404b, type: 3}
+  m_Name: Song
+  m_EditorClassIdentifier: 
+  songInfors:
+  - songID: 0
+    name: 
+    price: 200
+    song: {fileID: 8300000, guid: ecb7ad46ad44c124f862a46b165c715d, type: 3}
+    icon: {fileID: 21300000, guid: 99a72daadcc4efe4681e53051f5d5106, type: 3}
+    musicalObject: {fileID: 0}
+  - songID: 1
+    name: 
+    price: 200
+    song: {fileID: 8300000, guid: f52a5770d7d187d43867bf3e9d52dfeb, type: 3}
+    icon: {fileID: 21300000, guid: 004987d3925a82e42802c6c472cdbc63, type: 3}
+    musicalObject: {fileID: 0}
+  - songID: 2
+    name: 
+    price: 200
+    song: {fileID: 8300000, guid: dfc2517024345664ba74336ddd38bb00, type: 3}
+    icon: {fileID: 21300000, guid: 9a657aa3a6bad204fba87fb46a58c297, type: 3}
+    musicalObject: {fileID: 0}
+  - songID: 3
+    name: 
+    price: 200
+    song: {fileID: 8300000, guid: 60ae5662b2e75ed45bc1578146a7ecde, type: 3}
+    icon: {fileID: 21300000, guid: 975a2beeb8697a8479dd3260fc11760d, type: 3}
+    musicalObject: {fileID: 0}
+  - songID: 4
+    name: 
+    price: 200
+    song: {fileID: 8300000, guid: 6f01d2e6f5cc817449a2c06e1b6e908f, type: 3}
+    icon: {fileID: 21300000, guid: 3f2648ea2075d5e4186c315da453352d, type: 3}
+    musicalObject: {fileID: 0}
+  - songID: 5
+    name: 
+    price: 200
+    song: {fileID: 8300000, guid: bb515dbf966f19248b57fd0babd8fa54, type: 3}
+    icon: {fileID: 21300000, guid: 7c333e0defd931e4a917116db7b0371f, type: 3}
+    musicalObject: {fileID: 0}
+  - songID: 6
+    name: 
+    price: 200
+    song: {fileID: 8300000, guid: 9121f31ed6b6e934492234e8b7d56154, type: 3}
+    icon: {fileID: 21300000, guid: b1bc5e53035591849b771d42a8cc5d47, type: 3}
+    musicalObject: {fileID: 0}
+  - songID: 7
+    name: 
+    price: 200
+    song: {fileID: 8300000, guid: bba28d04e7054b64193b2d045a7e106d, type: 3}
+    icon: {fileID: 21300000, guid: 8767628f39a4d77469d630a36d058106, type: 3}
+    musicalObject: {fileID: 0}
+  - songID: 8
+    name: 
+    price: 200
+    song: {fileID: 8300000, guid: d7a320e8500d93946933989bc5a2941a, type: 3}
+    icon: {fileID: 21300000, guid: 2a469f6c4aa5d3b4ca02d2f6772d58f1, type: 3}
+    musicalObject: {fileID: 0}
+  - songID: 9
+    name: 
+    price: 200
+    song: {fileID: 8300000, guid: 5df8bee6b8c6db64995440503eb93943, type: 3}
+    icon: {fileID: 21300000, guid: 274adacdf821b854c8f39d514cac9f99, type: 3}
+    musicalObject: {fileID: 0}
+  folderPath: Assets/Buddha2/Songs
